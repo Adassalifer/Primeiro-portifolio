@@ -1,0 +1,153 @@
+body {
+	background: linear-gradient(mediumpurple,skyblue);
+	font-family: 'Libre Baskerville', serif;
+	font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+}
+header {
+	padding: 20px 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	color: darkblue;
+
+}
+
+.caixa {
+	position: relative;
+	width: 940px;
+	margin: 0 auto;
+}
+nav {
+	position: absolute;
+	top: 1px;
+	right: 0;
+}
+
+nav li {
+	display: inline;
+	margin: 2px auto;
+}
+
+nav a {
+	display:inline-block;
+	vertical-align: top;
+	color: aliceblue;
+	font-weight: bold;
+	font-size: 30px;
+	text-decoration: none;
+	
+}
+
+nav a:hover {
+	color: darkblue;
+	text-decoration: underline;
+}
+
+.principal {
+  	padding: 3em 0;
+  	width: 940px;
+  	margin: 0 auto;
+}
+
+.titulo-principal{
+	text-align: center;
+	font-size: 2em;
+	margin: 0 0 1em;
+	padding-left: 20px;
+	clear: left;
+	color: darkblue;
+
+}
+
+
+p {
+	text-align: center;
+   font-size: 20px;
+}
+ 
+.itens{
+	font-style: italic;
+
+}
+.itens:before {
+	content: "⚙";
+
+}
+.certificações{
+	padding: 3em 0;
+}
+
+.imagemperfil{
+	width: 30%;
+	opacity: 1;
+	float: left;
+	margin: 0 30px 30px 0;
+	box-shadow: 10px 10x 30px #000000;
+}
+ul {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	margin-right: 15%;
+}
+
+.conteudo-certificações{
+	width: 640px;
+	margin: 0 auto;
+}
+.lista-certificações{
+	width: 40%;
+	display: inline-block;
+	vertical-align: top;
+}
+.itens{
+	line-height: 1.5;
+}
+
+.imagemcertificacao {
+	width: 30%;
+	opacity: 0.2;
+	transition: 400ms;
+	box-shadow: 10px 10x 5px #000000;
+}
+.imagemcertificacao:hover{
+	opacity: 1;
+}
+
+.principal p{
+	margin:0 0 1em;
+}
+.mapa {
+	padding: 3em 0;
+	text-align: center;
+	width: 940px;
+  	margin: 0 auto;
+}
+
+.video{
+	width: 560px;
+	margin: 2em auto;
+}
+footer {
+	text-align: center;
+	background: url("bg.jpg");
+	padding: 40px 0;
+}
+
+.copyright {
+	color: blueviolet;
+	font-size: 13px;
+	margin: 20px 0 0;
+}
+
+@media screen and (max-width 480px){
+	.caixa, .principal, .conteudo-certificações, .mapa, .video {
+		width: auto;
+	}
+}
+
+
+nav {
+	position: static;
+}
